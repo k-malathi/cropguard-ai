@@ -54,3 +54,11 @@ Containment Recommendation
 Farmer Alerts
     ↓
 Feedback / Learning
+
+
+
+
+
+## 🚀 Live Demo
+
+[Open CropGuard AI](https://competition-ready-prototype--malathioffl20.replit.app)
