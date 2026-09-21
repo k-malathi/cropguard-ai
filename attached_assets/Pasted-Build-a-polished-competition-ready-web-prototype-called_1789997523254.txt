@@ -1,0 +1,511 @@
+Build a polished, competition-ready web prototype called **CropGuard AI — Autonomous Crop Protection System** for a college hackathon called HackWell 2.0.
+
+IMPORTANT:
+This is a prototype/demo for a hackathon presentation. The goal is to clearly demonstrate the complete concept through a beautiful, highly interactive UI. Do NOT build a generic agriculture dashboard. The key differentiator is:
+
+**AI Detection + Risk Assessment + Autonomous Decision + Localized Containment**
+
+The core workflow must be visually demonstrated as:
+
+**SENSE → DETECT → ANALYZE → DECIDE → CONTAIN → LEARN**
+
+TECH STACK:
+
+* React
+* TypeScript
+* Tailwind CSS
+* Vite
+* Use modern component architecture
+* Use Lucide React icons
+* Use Recharts for charts
+* Use smooth CSS/Framer Motion-style animations where appropriate
+* Make the application responsive for laptop/projector presentation
+* Keep the code clean and modular
+
+DESIGN DIRECTION:
+Create a premium AI/agri-tech SaaS interface.
+
+Visual style:
+
+* Professional
+* Modern
+* Clean
+* High-end startup product
+* Nature/agriculture inspired
+* Dark charcoal/forest-green base with subtle earthy green accents
+* Soft gradients
+* Glassmorphism used carefully
+* Excellent typography
+* Rounded cards
+* Subtle borders
+* Soft shadows
+* No excessive neon
+* No childish agricultural illustrations
+* No unnecessary emojis
+* No clutter
+
+ANIMATIONS:
+Animations are extremely important.
+
+Use purposeful animations such as:
+
+* Dashboard cards appearing smoothly
+* Numbers counting up
+* AI scanning animation over crop images
+* Field zones gradually appearing
+* Risk meters animating from 0 to their values
+* Detection confidence progress animation
+* Decision-agent steps appearing sequentially
+* Containment zone expanding/highlighting
+* Alert sliding into view
+* Smooth page transitions
+* Hover effects
+* Button micro-interactions
+* Animated charts
+
+Animations must feel professional and should explain the AI workflow rather than simply being decorative.
+
+APPLICATION STRUCTURE:
+
+1. DASHBOARD
+
+Create a main dashboard titled:
+
+**CropGuard AI**
+**Autonomous Crop Protection**
+
+Subtitle:
+"Detect early. Assess risk. Contain locally."
+
+Top navigation:
+
+* Overview
+* Crop Analysis
+* Risk Intelligence
+* AI Decision
+* Alerts
+
+Dashboard statistics:
+
+* Field Area: 24.6 acres
+* Crop Health: 82%
+* Monitored Images: 1,284
+* Active Risk Zones: 3
+
+Create an interactive field-health visualization.
+
+Display a stylized crop field divided into zones.
+
+Use:
+
+* Green = Healthy
+* Yellow = Watch
+* Red = High Risk
+
+Make the red areas subtly pulse.
+
+Include a card called:
+
+**Live Field Intelligence**
+
+Show:
+
+* Healthy Zones
+* Watch Zones
+* High Risk Zones
+
+Include a recent activity timeline:
+
+"Crop image received"
+"AI detection completed"
+"Risk assessment completed"
+"Containment recommendation generated"
+
+2. CROP ANALYSIS
+
+Create a beautiful image-analysis interface.
+
+Title:
+**AI Crop Analysis**
+
+Allow the user to upload an image using drag-and-drop.
+
+Also provide a **Demo Analysis** button so the presentation can work without an actual image.
+
+When the user clicks Analyze:
+
+Show a professional scanning animation.
+
+Example sequence:
+
+STEP 1
+"Sensing crop image..."
+
+STEP 2
+"Running visual analysis..."
+
+STEP 3
+"Detecting disease patterns..."
+
+STEP 4
+"Estimating severity..."
+
+STEP 5
+"Calculating spread risk..."
+
+Then show the result:
+
+Disease:
+**Tomato Leaf Blight**
+
+Detection Confidence:
+**92.7%**
+
+Severity:
+**HIGH**
+
+Affected Area:
+**14.8%**
+
+Do not claim this is a medically/scientifically validated prediction. Clearly present it as a prototype/demo analysis.
+
+3. RISK INTELLIGENCE
+
+Create a dedicated risk-analysis page.
+
+Title:
+**Risk Intelligence**
+
+Show:
+
+Overall Outbreak Risk:
+**HIGH**
+
+Risk Score:
+**82 / 100**
+
+Create animated risk indicators for:
+
+* Disease Severity
+* Affected Area
+* Spatial Clustering
+* Nearby Infected Plants
+* Spread Risk
+
+Show a chart titled:
+
+**Projected Spread Risk**
+
+Use prototype/demo values:
+
+Current: 82%
+24 Hours: 87%
+48 Hours: 91%
+
+Clearly label these as simulated/demo projections.
+
+Create a field heatmap showing the affected region.
+
+4. AI DECISION AGENT
+
+This is the HERO feature of the application.
+
+Create a visually impressive page called:
+
+**Autonomous Decision Agent**
+
+Show an animated decision pipeline:
+
+✓ Disease detected
+✓ Severity assessed
+✓ Spread risk calculated
+✓ Affected zone identified
+✓ Nearby zones analyzed
+→ Decision generated
+
+Then display:
+
+**RECOMMENDED ACTION**
+
+LOCALIZED CONTAINMENT
+
+Target:
+**Block C — Rows 12–18**
+
+Priority:
+**HIGH**
+
+Recommended action:
+**Targeted treatment + isolation of affected zone**
+
+Important explanation:
+
+"Healthy zones are excluded from the recommended intervention area."
+
+Create an animated AI decision timeline showing the reasoning process at a high level.
+
+Do NOT expose hidden chain-of-thought or claim that the AI has human-like reasoning. Only show concise decision factors.
+
+5. LOCALIZED CONTAINMENT
+
+Create an interactive field map.
+
+Show a field divided into blocks:
+
+A | B | C | D | E
+
+Highlight Block C in red/orange.
+
+Show:
+
+Affected Zone:
+Block C
+
+Estimated affected area:
+14.8%
+
+Containment Priority:
+HIGH
+
+Recommended intervention:
+Localized treatment
+
+Healthy surrounding zones should remain green.
+
+Add an animated boundary around the affected region.
+
+Include a button:
+
+**Generate Containment Plan**
+
+When clicked, display:
+
+"Containment plan generated."
+
+Then show:
+
+* Target zone
+* Priority
+* Recommended action
+* Monitoring frequency
+
+6. FARMER ALERTS
+
+Create an Alerts page.
+
+Example alert:
+
+🚨 HIGH-RISK CROP ALERT
+
+Tomato Leaf Blight detected in Block C.
+
+Risk:
+HIGH
+
+Affected Area:
+14.8%
+
+Recommended Action:
+Localized containment
+
+Time:
+Just now
+
+Include buttons:
+
+**View Affected Zone**
+**View Recommendation**
+
+Create another lower-priority alert:
+
+"Block D requires additional monitoring."
+
+7. LEARN / FEEDBACK
+
+Create a small section called:
+
+**Continuous Learning**
+
+Show:
+
+Detection → Action → Outcome → Feedback
+
+Display example metrics:
+
+Detection Accuracy
+Response Time
+Containment Outcome
+
+Explain:
+
+"Outcome data is recorded to improve future monitoring and decision support."
+
+Do not falsely claim that the prototype is actually retraining a production model.
+
+8. DEMO MODE
+
+This is VERY IMPORTANT for the hackathon presentation.
+
+Add a clearly visible:
+
+**Launch Demo**
+
+button on the dashboard.
+
+When clicked, automatically demonstrate the complete workflow:
+
+SENSE
+↓
+DETECT
+↓
+ANALYZE
+↓
+DECIDE
+↓
+CONTAIN
+↓
+ALERT
+
+The demo should automatically move through these stages with smooth animations.
+
+At each stage display a short status:
+
+SENSE:
+"Crop image received."
+
+DETECT:
+"Possible Tomato Leaf Blight detected."
+
+ANALYZE:
+"Severity and spread risk calculated."
+
+DECIDE:
+"Localized containment recommended."
+
+CONTAIN:
+"Block C identified as priority zone."
+
+ALERT:
+"Farmer alert generated."
+
+At the end show:
+
+**OUTBREAK RESPONSE READY**
+
+with the affected zone highlighted.
+
+9. LANDING / OVERVIEW SECTION
+
+The main dashboard should immediately communicate the value proposition.
+
+Hero text:
+
+**From Detection to Action.**
+
+Supporting text:
+
+"CropGuard AI continuously monitors crops, detects potential pest and disease outbreaks, assesses risk, and recommends localized containment."
+
+Three feature cards:
+
+**AI Detection**
+Identify potential pest and disease symptoms.
+
+**Risk Intelligence**
+Assess severity and spread risk.
+
+**Autonomous Decision**
+Recommend localized containment actions.
+
+10. TECHNICAL ARCHITECTURE SECTION
+
+Add a small "System Architecture" visualization accessible from the dashboard.
+
+Show:
+
+Crop Image / Field Data
+↓
+Vision AI
+↓
+Risk Engine
+↓
+Decision Agent
+↓
+Containment Recommendation
+↓
+Farmer Alert
+↓
+Feedback Database
+
+Use animated connecting lines.
+
+11. DEMO DATA
+
+Use realistic-looking but clearly simulated prototype data.
+
+Do not present fabricated real-world statistics as factual.
+
+Add a small label:
+
+"Prototype Demonstration Data"
+
+12. UX REQUIREMENTS
+
+The application must:
+
+* Work immediately after opening
+* Not require login
+* Not require API keys for the basic demo
+* Have functional navigation
+* Have functional buttons
+* Have functional image upload
+* Include Demo Mode
+* Include realistic loading states
+* Include empty states
+* Include success states
+* Never leave buttons non-functional
+* Avoid broken links
+* Avoid placeholder "Lorem ipsum"
+* Avoid unfinished sections
+
+13. HACKATHON PRESENTATION PRIORITY
+
+The most important user journey is:
+
+Dashboard
+→ Launch Demo
+→ Crop Analysis
+→ Detection
+→ Risk Analysis
+→ AI Decision
+→ Localized Containment
+→ Farmer Alert
+
+This journey should be possible in approximately 60–90 seconds.
+
+Make the interface optimized for screen sharing and projector presentation.
+
+14. FINAL POLISH
+
+Before finishing:
+
+* Remove all console errors
+* Make all navigation work
+* Make all buttons work
+* Ensure responsive layout
+* Ensure charts render correctly
+* Ensure upload works
+* Ensure demo mode works
+* Add polished transitions
+* Add loading animations
+* Add hover states
+* Check spacing and typography
+* Make the dashboard look like a real AI startup product
+
+The final result should feel like a serious **AI-powered precision agriculture platform**, not a student CRUD project.
+
+The prototype should communicate this exact value:
+
+**Early detection → Risk assessment → Autonomous decision → Localized containment → Farmer action**
+
+Build the complete working prototype now.
